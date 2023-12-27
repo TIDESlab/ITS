@@ -9,7 +9,7 @@ Since ITS is INR model agnostic/independent, you can plug ITS into your own INR-
 
 ### Iterative Substitution (ITS) for Newing the Supervision Signal
 
-For a given set of iterations $\{N, 2N, ..., kN\}$ where $N$ is a hyper-parameter, ITS renews the supervision signals with the mean value derived from both the prediction and supervision signal, which is formulated as follows:
+For a given set of iterations $`\{N, 2N, ..., kN\}`$ where $N$ is a hyper-parameter, ITS renews the supervision signals with the mean value derived from both the prediction and supervision signal, which is formulated as follows:
 
 $$
 \boldsymbol{\hat{y}}^{kN+1} = \frac{\boldsymbol{y} + \boldsymbol{\hat{x}}^{kN}}{2}.
