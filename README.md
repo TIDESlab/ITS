@@ -14,7 +14,7 @@ For a given set of iterations $`\{N, 2N, ..., kN\}`$ where $N$ is a hyper-parame
 $$
 \boldsymbol{\hat{y}}^{kN+1} = \frac{\boldsymbol{y} + \boldsymbol{\hat{x}}^{kN}}{2},
 $$
-where $\boldsymbol{\hat{y}}^{kN+1}$ is the renewed supervision signal, $\boldsymbol{y}$ is the original noisy observation and $\hat{x}}^{kN}$ is the denoised results from INR model.
+where $\boldsymbol{\hat{y}}^{kN+1}$ is the renewed supervision signal, $\boldsymbol{y}$ is the original noisy observation and $\boldsymbol{\hat{x}}^{kN}$ is the denoised results from INR model.
 
 ### Implementation
 ```python
