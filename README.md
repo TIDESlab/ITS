@@ -12,9 +12,9 @@ Since ITS is INR model agnostic/independent, you can plug ITS into your own INR-
 For a given set of iterations $`\{N, 2N, ..., kN\}`$ where $N$ is a hyper-parameter, ITS renews the supervision signals with the mean value derived from both the prediction and supervision signal, which is formulated as follows:
 
 $$
-\boldsymbol{\hat{y}}^{kN+1} = \frac{\boldsymbol{y} + \boldsymbol{\hat{x}}^{kN}}{2}.
+\boldsymbol{\hat{y}}^{kN+1} = \frac{\boldsymbol{y} + \boldsymbol{\hat{x}}^{kN}}{2},
 $$
-
+where $\boldsymbol{\hat{y}}^{kN+1}$ is the renewed supervision signal, $\boldsymbol{y}$ is the original noisy observation and $\hat{x}}^{kN}$ is the denoised results from INR model.
 
 ### Implementation
 ```python
