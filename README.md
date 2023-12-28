@@ -67,6 +67,8 @@ for i in range(1, num_iters + 1):
 
 ![image](./Fig/Fig2.png)
 
+![image](./Fig/Tab2.png)
+
 More results could be found in our paper.
 
 ## Repos for INR-based image denoiser
