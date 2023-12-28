@@ -2,10 +2,27 @@
 
 [Zipei Yan](https://yanzipei.github.io/), [Zhengji Liu](https://scholar.google.com/citations?user=9VWj-fUAAAAJ), [Jizhou Li](http://jizhou.li/)
 
+This paper is available on arXiv and IEEEXplore(Coming soon).
+
+## Abstract
+Implicit Neural Representation (INR) has emerged as an effective
+method for unsupervised image denoising. However, INR models
+are typically overparameterized; consequently, these models are
+prone to overfitting during learning, resulting in suboptimal results,
+even noisy ones. To tackle this problem, we propose a general recipe
+for regularizing INR models in image denoising. In detail, we propose
+to iteratively substitute the supervision signal with the mean
+value derived from both the prediction and supervision signal during
+the learning process. We theoretically prove that such a simple iterative
+substitute can gradually enhance the signal-to-noise ratio of the
+supervision signal, thereby benefiting INR models during the learning
+process. Our experimental results demonstrate that INR models
+can be effectively regularized by the proposed approach, relieving
+overfitting and boosting image denoising performance.
 
 ## How to use ITS for boosting INR-based image denoiser?
 
-Since ITS is INR model agnostic/independent, you can plug ITS into your own INR-based image denoiser.
+Since ITS is INR model agnostic/independent, you can plug ITS into your own INR-based denoiser.
 
 ### Iterative Substitution (ITS) for Newing the Supervision Signal
 
@@ -48,9 +65,11 @@ for i in range(1, num_iters + 1):
 
 ## Results
 
+![image](./Fig/Fig2.png)
 
+More results could be found at our paper.
 
-## Repos for INR for denoising
+## Repos for INR-based image denoiser
 
 DIP: https://github.com/DmitryUlyanov/deep-image-prior
 
@@ -65,7 +84,6 @@ ADMM-DIPTV: https://github.com/sedaboni/ADMM-DIPTV
 DeepRED: https://github.com/GaryMataev/DeepRED
 
 
-
 ## Citation
 If this work is useful for your research, please kindly cite it:
 ```
@@ -77,3 +95,6 @@ year={2024},
 }
 ```
 
+## Contact
+
+Please contact: lijz AT ieee DOT org
