@@ -2,7 +2,7 @@
 
 [Zipei Yan](https://yanzipei.github.io/), [Zhengji Liu](https://scholar.google.com/citations?user=9VWj-fUAAAAJ), [Jizhou Li](http://jizhou.li/)
 
-This paper is available on arXiv and IEEEXplore(Coming soon).
+This paper is available on [arXiv](https://arxiv.org/abs/2401.01548) and IEEEXplore(Coming soon).
 
 ## Abstract
 Implicit Neural Representation (INR) has emerged as an effective
