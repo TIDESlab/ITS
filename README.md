@@ -24,7 +24,7 @@ overfitting and boosting image denoising performance.
 
 Since ITS is INR model agnostic/independent, you can plug ITS into your own INR-based denoiser.
 
-### Iterative Substitution (ITS) for Newing the Supervision Signal
+### Iterative Substitution (ITS) for Renewing the Supervision Signal
 
 For a given set of iterations $`\{N, 2N, ..., kN\}`$ where $N$ is a hyper-parameter, ITS renews the supervision signals with the mean value derived from both the prediction and supervision signal, which is formulated as follows:
 
@@ -91,7 +91,7 @@ If this work is useful for your research, please kindly cite it:
 ```
 @inproceedings{yan2024its,
 title={Boosting of Implicit Neural Representation-based Image Denoiser},
-author={Zipei Yan, Zhengji Liu, Jizhou Li},
+author={Zipei Yan and Zhengji Liu and Jizhou Li},
 booktitle={ICASSP},
 year={2024},
 }
