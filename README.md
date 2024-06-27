@@ -91,7 +91,7 @@ If this work is useful for your research, please kindly cite it:
 ```
 @inproceedings{yan2024its,
 title={Boosting of Implicit Neural Representation-based Image Denoiser},
-author={Zipei Yan and Zhengji Liu and Jizhou Li},
+author={Yan, Zipei and Liu, Zhengji and Li, Jizhou},
 booktitle={ICASSP},
 year={2024},
 }
